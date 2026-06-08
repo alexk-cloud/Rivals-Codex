@@ -1,0 +1,57 @@
+{
+    "punisher": {
+        "name": "The Punisher",
+        "real_name": "Frank Castle",
+        "role": "Duelist",
+        "bio": "After his family was killed in a mob hit, Frank Castle dedicated his life's work to fighting crime in his own way: by becoming judge, jury, and executioner.",
+        "image": "images/punisher.webp",
+        "comics": [
+
+        ],
+        "entertainment": [
+            
+        ]
+    },
+
+    "spiderman": {
+        "name": "Spider-Man",
+        "real_name": "Peter Parker",
+        "role": "Duelist",
+        "bio": "Bitten by a radioactive spider as a teenager, Peter Parker sees it as his responsibility to use his great powers to protect and help out every person he can.",
+        "image": "images/spider-man.webp",
+        "comics": [
+            {
+                "title": "Amazing Fantasy #15",
+                "year": "1962",
+                "description": "The first ever appearance of the wallcrawler!",
+                "link": "https://www.marvel.com/comics/issue/16926/amazing_fantasy_1962_15"
+            },
+            {
+                "title": "Ultimate Spider-Man (2000) #1",
+                "year": "2000",
+                "description": "A reinterpretation of Spider-Man from the early 2000s. This comic run was used as inspiration for multiple live action movies!",
+                "link": "https://www.marvel.com/comics/issue/4372/ultimate_spider-man_2000_1"
+            }
+        ],
+        "entertainment": [
+            {
+                "title": "Spider-Man: The Animated Series",
+                "year": "1994-1998",
+                "description": "A classic TV series beloved by fans of all ages. This show inspired many storylines in movies and video games, even today!",
+                "link": "https://www.imdb.com/title/tt0112175/"
+            },
+            {
+                "title": "The Spectacular Spider-Man",
+                "year": "2008-2009",
+                "description": "Often said to be the best animated Spider-Man show, The Spectacular Spider-Man is a timeless classic with an iconic artstyle.",
+                "link": "https://www.imdb.com/title/tt0976192/"
+            },
+            {
+                "title": "Spider-Man (2002)",
+                "year": "2002",
+                "description": "The iconic and campy live action classic starring Tobey Maguire!",
+                "link": "https://www.imdb.com/title/tt0145487/"
+            }
+        ]
+    }
+}
