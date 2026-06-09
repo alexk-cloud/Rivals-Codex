@@ -6,10 +6,50 @@
         "bio": "After his family was killed in a mob hit, Frank Castle dedicated his life's work to fighting crime in his own way: by becoming judge, jury, and executioner.",
         "image": "images/punisher.webp",
         "comics": [
-
+            {
+                "title": "The Punisher: Year One",
+                "year": "1994-1995",
+                "description": "A vividly detailed comic series that depicts Frank Castle's origin story and how he became the Punisher!",
+                "link": "https://www.marvel.com/comics/series/27615/the_punisher:_year_one_(1994_-_1995"
+            },
+            {
+                "title": "Punisher MAX",
+                "year": "2004-2008",
+                "description": "A gritty and ruthless comic run set in an alternate universe where the Punisher is even more brutal as he faces a world without superhumans.",
+                "link": "https://www.marvel.com/comics/series/698/punisher_max_2004_2008"
+            }
         ],
         "entertainment": [
-            
+            {
+                "title": "Punisher: War Zone",
+                "year": "2008",
+                "description": "Often said to be the most comic accurate live action Punisher, the late Ray Stevenson's Frank Castle wages a war against the mafia.",
+                "link": "https://www.imdb.com/title/tt0450314/"
+            },
+            {
+                "title": "Daredevil (Season 2)",
+                "year": "2016",
+                "description": "Frank Castle's violent first appearance in the Marvel Cinematic Universe (MCU).",
+                "link": "https://www.imdb.com/title/tt3322312/episodes/?season=2"
+            },
+            {
+                "title": "The Punisher",
+                "year": "2017-2019",
+                "description": "Set after the events of Daredevil Season 2, Frank Castle seeks revenge on the people behind his family's murder.",
+                "link": "https://www.imdb.com/title/tt3322312/episodes/?season=2"
+            },
+            {
+                "title": "Daredevil: Born Again (Season 1)",
+                "year": "2025",
+                "description": "After crimelord Wilson Fisk (a.k.a. the Kingpin) became Mayor of New York City, the creation of his Anti-Vigilante Task Force forces Daredevil and the Punisher to team up against Fisk's reign of terror.",
+                "link": "https://www.imdb.com/title/tt18923754/"
+            },
+            {
+                "title": "The Punisher: One Last Kill",
+                "year": "2026",
+                "description": "An hour-long TV special detailing Frank Castle's struggle with PTSD, when suddenly crime boss Ma Gnucci puts a bounty on his head, forcing the Punisher to spring back into action. ",
+                "link": "https://www.imdb.com/title/tt36042156/"
+            }
         ]
     },
 
