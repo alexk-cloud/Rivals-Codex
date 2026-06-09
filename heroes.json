@@ -89,8 +89,20 @@
             {
                 "title": "Spider-Man (2002)",
                 "year": "2002",
-                "description": "The iconic and campy live action classic starring Tobey Maguire!",
+                "description": "The iconic and campy live action classic starring Tobey Maguire's Spider-Man versus Willem Dafoe's Green Goblin!",
                 "link": "https://www.imdb.com/title/tt0145487/"
+            },
+            {
+                "title": "The Amazing Spider-Man",
+                "year": "2012",
+                "description": "The origin of Andrew Garfield's Spider-Man. After losing his parents and Uncle Ben, Peter Parker seeks to solve the mystery behind his parents' disappearance when he meets Dr. Curt Connors, who turns into The Lizard!",
+                "link": "https://www.imdb.com/title/tt0948470/"
+            },
+            {
+                "title": "Spider-Man: Homecoming",
+                "year": "2017",
+                "description": "The first solo movie of Tom Holland's Spider-Man. Peter Parker, desperate to prove himself to his mentor Tony Stark, is put to the ultimate test when The Vulture threatens him and his loved ones.",
+                "link": "https://www.imdb.com/title/tt0948470/"
             }
         ]
     }
