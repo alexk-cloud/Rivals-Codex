@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Odibee+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Lexend:wght@100..900&family=Odibee+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -22,16 +22,14 @@
             <?php foreach($heroes as $id => $hero): ?>
 
             <a href="hero.php?id=<?= $id ?>" class="hero-card"
-            data-name="<?=$hero['name'] ?>"
-            data-role="<?= $hero['role'] ?>">
+                data-name="<?=$hero['name'] ?>"
+                data-role="<?= $hero['role'] ?>">
 
-            <div class="hero-image">
-                <img src="<?=$hero['image'] ?>" alt="<?=$hero['name']?>" width="300px" height="300px">
-            </div>
-            
-            <p class="hero-name"> <?= $hero['name'] ?> </p>
-            
-
+                <div class="hero-image">
+                    <img src="<?=$hero['image'] ?>" alt="<?=$hero['name']?>" width="300px" height="300px">
+                </div>
+                
+                <p class="hero-name"> <?= $hero['name'] ?> </p>
             </a>
             <?php endforeach; ?>
         </div>

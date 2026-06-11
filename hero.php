@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Lexend:wght@100..900&family=Odibee+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,9 +32,11 @@
         </div>
         
         <div class="hero-banner-info">
-            <h1 id="name"> <?= $hero['name']?> </h1>
+            <h1 id="name" style="color: <?= $hero['color'] ?>">
+                <?= $hero['name']?>
+            </h1>
             <h2 id="real-name"> <?= $hero['real_name']?> </h2>
-            <h3 id="role"> <?= $hero['role']?> </h3>
+            <h3 id="role" style="color: gray"> <?= $hero['role']?> </h3>
             <p id="bio"> <?= $hero['bio']?> </p>
         </div>
     </section>
@@ -42,27 +44,42 @@
     <section class="appearances">
         <h2> Appears in: </h2>
 
-        <div class="comics">
-            <?php foreach($hero['comics'] as $comic): ?>
-                <a 
-                    href="<?= $comic['link']?>" target="_blank"> 
-                    <h3 class="comic-title"> <?= $comic['title'] ?> </h3>
-                </a>
-                
-                <p> <?= $comic['description'] ?></p>
+        <div class="appears-grid">
+            <div class="comics">
+                <?php foreach($hero['comics'] as $comic): ?>
 
-            <?php endforeach; ?>
+                    <div class="comic-card"> 
+                        <a 
+                            href="<?= $comic['link']?>" target="_blank"> 
+                            <img id="comic-cover" src="<?= $comic['cover'] ?>" alt="" height="300px">
+                            <h3 id="comic-title" style="color: <?= $hero['color'] ?>">
+                                <?= $comic['title'] ?> 
+                            </h3>
+                        </a>
+                    
+                        <p id="comic-desc"> <?= $comic['description'] ?></p>
+                    </div>
 
-            <?php foreach($hero['entertainment'] as $media): ?>
-                <a
-                    href="<?= $media['link']?>" target="_blank">
-                    <h3 class="media-title"> <?= $media['title'] ?> </h3>
-                </a>
+                <?php endforeach; ?>
 
-                <p> <?= $media['description'] ?></p>
-            <?php endforeach; ?>
-    </div>
-</section>
+                <?php foreach($hero['entertainment'] as $media): ?>
+                    <div class="media-card">
+                        <a
+                            href="<?= $media['link']?>" target="_blank">
+                            <img id="media-cover" src="<?= $media['cover'] ?>" alt="" height="300px">
+                            <h3 id="media-title" style="color: <?= $hero['color'] ?>">
+                                <?= $media['title'] ?> 
+                            </h3>
+                        </a>
+
+                        <p id="media-desc"> <?= $media['description'] ?></p>
+                    </div>
+                    
+                <?php endforeach; ?>
+            </div>
+        </div>
+        
+    </section>
 
 <?php include "includes/footer.php"; ?>
 </body>

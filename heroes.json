@@ -1,7 +1,8 @@
 {
     "daredevil": {
+        "color": "#921d43",
         "name": "Daredevil",
-        "real_name": "Matt Murdock",
+        "real_name": "Matthew Michael \"Matt\" Murdock",
         "role": "Duelist",
         "bio": "Lawyer by day and crime-fighting vigiliante by night, Matt Murdock was blinded by a radioactive substance, granting him insanely heightened senses and allowing him to \"see\" better than anyone.",
         "image": "images/daredevil.webp",
@@ -10,13 +11,15 @@
                 "title": "Daredevil: The Man Without Fear",
                 "year": "1993",
                 "description": "The quintessential origin story of Daredevil! Written by Frank Miller, this comic series retells Matt Murdock's early days becoming a vigilante!",
-                "link": "https://www.marvel.com/comics/series/3897/daredevil_the_man_without_fear_1993"
+                "link": "https://www.marvel.com/comics/series/3897/daredevil_the_man_without_fear_1993",
+                "cover": ""
             },
             {
                 "title": "Daredevil: Born Again",
                 "year": "1986",
                 "description": "Possibly the most iconic Daredevil comic run of all time, Born Again details Matt Murdock's struggle to live, as the Kingpin (Wilson Fisk) aims to destroy every part of his life after learning his secret identity.",
-                "link": "https://www.marvel.com/comics/guides/1032/daredevil-born-again"
+                "link": "https://www.marvel.com/comics/guides/1032/daredevil-born-again",
+                "cover": ""
             }
         ],
         "entertainment": [
@@ -24,20 +27,23 @@
                 "title": "Daredevil",
                 "year": "2015-2018",
                 "description": "The pinnacle of Marvel television, the Daredevil TV series is the definitive live action adaptation of Matt Murdock!",
-                "link": "https://www.imdb.com/title/tt3322312/"
+                "link": "https://www.imdb.com/title/tt3322312/",
+                "cover": ""
             },
             {
                 "title": "Daredevil: Born Again",
                 "year": "2025-Present",
                 "description": "Although it has almost nothing to do with the comic run of the same name, Daredevil: Born Again is a great continuation of the original 2015 TV series.",
-                "link": "https://www.imdb.com/title/tt18923754/"
+                "link": "https://www.imdb.com/title/tt18923754/",
+                "cover": ""
             }
         ]
     },
 
     "punisher": {
+        "color": "#93918d",
         "name": "The Punisher",
-        "real_name": "Frank Castle",
+        "real_name": "Francis David \"Frank\" Castle (born Castiglione)",
         "role": "Duelist",
         "bio": "After his family was killed in a mob hit, Frank Castle dedicated his life's work to fighting crime in his own way: by becoming judge, jury, and executioner.",
         "image": "images/punisher.webp",
@@ -46,13 +52,15 @@
                 "title": "The Punisher: Year One",
                 "year": "1994-1995",
                 "description": "A vividly detailed comic series that depicts Frank Castle's origin story and how he became the Punisher!",
-                "link": "https://www.marvel.com/comics/series/27615/the_punisher:_year_one_(1994_-_1995"
+                "link": "https://www.marvel.com/comics/series/27615/the_punisher:_year_one_(1994_-_1995",
+                "cover": ""
             },
             {
                 "title": "Punisher MAX",
                 "year": "2004-2008",
                 "description": "A gritty and ruthless comic run set in an alternate universe where the Punisher is even more brutal as he faces a world without superhumans.",
-                "link": "https://www.marvel.com/comics/series/698/punisher_max_2004_2008"
+                "link": "https://www.marvel.com/comics/series/698/punisher_max_2004_2008",
+                "cover": ""
             }
         ],
         "entertainment": [
@@ -60,38 +68,44 @@
                 "title": "Punisher: War Zone",
                 "year": "2008",
                 "description": "Often said to be the most comic accurate live action Punisher, the late Ray Stevenson's Frank Castle wages a war against the mafia.",
-                "link": "https://www.imdb.com/title/tt0450314/"
+                "link": "https://www.imdb.com/title/tt0450314/",
+                "cover": ""
             },
             {
                 "title": "Daredevil (Season 2)",
                 "year": "2016",
                 "description": "Frank Castle's violent first appearance in the Marvel Cinematic Universe (MCU).",
-                "link": "https://www.imdb.com/title/tt3322312/episodes/?season=2"
+                "link": "https://www.imdb.com/title/tt3322312/episodes/?season=2",
+                "cover": ""
             },
             {
                 "title": "The Punisher",
                 "year": "2017-2019",
                 "description": "Set after the events of Daredevil Season 2, Frank Castle seeks revenge on the people behind his family's murder.",
-                "link": "https://www.imdb.com/title/tt3322312/episodes/?season=2"
+                "link": "https://www.imdb.com/title/tt3322312/episodes/?season=2",
+                "cover": ""
             },
             {
                 "title": "Daredevil: Born Again (Season 1)",
                 "year": "2025",
                 "description": "After crimelord Wilson Fisk (a.k.a. the Kingpin) became Mayor of New York City, the creation of his Anti-Vigilante Task Force forces Daredevil and the Punisher to team up against Fisk's reign of terror.",
-                "link": "https://www.imdb.com/title/tt18923754/"
+                "link": "https://www.imdb.com/title/tt18923754/",
+                "cover": ""
             },
             {
                 "title": "The Punisher: One Last Kill",
                 "year": "2026",
                 "description": "An hour-long TV special detailing Frank Castle's struggle with PTSD, when suddenly crime boss Ma Gnucci puts a bounty on his head, forcing the Punisher to spring back into action. ",
-                "link": "https://www.imdb.com/title/tt36042156/"
+                "link": "https://www.imdb.com/title/tt36042156/",
+                "cover": ""
             }
         ]
     },
 
     "spiderman": {
+        "color": "#ff1100",
         "name": "Spider-Man",
-        "real_name": "Peter Parker",
+        "real_name": "Peter Benjamin Parker",
         "role": "Duelist",
         "bio": "Bitten by a radioactive spider as a teenager, Peter Parker sees it as his responsibility to use his great powers to protect and help out every person he can.",
         "image": "images/spider-man.webp",
@@ -100,13 +114,15 @@
                 "title": "Amazing Fantasy #15",
                 "year": "1962",
                 "description": "The first ever appearance of the wallcrawler!",
-                "link": "https://www.marvel.com/comics/issue/16926/amazing_fantasy_1962_15"
+                "link": "https://www.marvel.com/comics/issue/16926/amazing_fantasy_1962_15",
+                "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/f/10/598363848588e/portrait_uncanny.jpg"
             },
             {
                 "title": "Ultimate Spider-Man (2000) #1",
                 "year": "2000",
                 "description": "A reinterpretation of Spider-Man from the early 2000s. This comic run was used as inspiration for multiple live action movies!",
-                "link": "https://www.marvel.com/comics/issue/4372/ultimate_spider-man_2000_1"
+                "link": "https://www.marvel.com/comics/issue/4372/ultimate_spider-man_2000_1",
+                "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/9/90/519b7e7eb534a/portrait_uncanny.jpg"
             }
         ],
         "entertainment": [
@@ -114,31 +130,36 @@
                 "title": "Spider-Man: The Animated Series",
                 "year": "1994-1998",
                 "description": "A classic TV series beloved by fans of all ages. This show inspired many storylines in movies and video games, even today!",
-                "link": "https://www.imdb.com/title/tt0112175/"
+                "link": "https://www.imdb.com/title/tt0112175/",
+                "cover": ""
             },
             {
                 "title": "The Spectacular Spider-Man",
                 "year": "2008-2009",
                 "description": "Often said to be the best animated Spider-Man show, The Spectacular Spider-Man is a timeless classic with an iconic artstyle.",
-                "link": "https://www.imdb.com/title/tt0976192/"
+                "link": "https://www.imdb.com/title/tt0976192/",
+                "cover": ""
             },
             {
                 "title": "Spider-Man (2002)",
                 "year": "2002",
                 "description": "The iconic and campy live action classic starring Tobey Maguire's Spider-Man versus Willem Dafoe's Green Goblin!",
-                "link": "https://www.imdb.com/title/tt0145487/"
+                "link": "https://www.imdb.com/title/tt0145487/",
+                "cover": ""
             },
             {
                 "title": "The Amazing Spider-Man",
                 "year": "2012",
                 "description": "The origin of Andrew Garfield's Spider-Man. After losing his parents and Uncle Ben, Peter Parker seeks to solve the mystery behind his parents' disappearance when he meets Dr. Curt Connors, who turns into The Lizard!",
-                "link": "https://www.imdb.com/title/tt0948470/"
+                "link": "https://www.imdb.com/title/tt0948470/",
+                "cover": ""
             },
             {
                 "title": "Spider-Man: Homecoming",
                 "year": "2017",
                 "description": "The first solo movie of Tom Holland's Spider-Man. Peter Parker, desperate to prove himself to his mentor Tony Stark, is put to the ultimate test when The Vulture threatens him and his loved ones.",
-                "link": "https://www.imdb.com/title/tt0948470/"
+                "link": "https://www.imdb.com/title/tt0948470/",
+                "cover": ""
             }
         ]
     }
