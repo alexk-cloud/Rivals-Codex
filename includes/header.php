@@ -5,20 +5,15 @@
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title> Rivals Codex </title>
 
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- add css file later -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Odibee+Sans&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-    <nav class="navbar">
+    <nav class="nav-bar">
         <a href="index.php" class="nav-logo"> Rivals Codex </a>
-        <ul class="nav-links">
-            <li>
-                <a href="index.php"> Heroes </a>
-            </li>
-        </ul>
     </nav>
 </body>
 </html>
