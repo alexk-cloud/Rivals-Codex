@@ -1,4 +1,40 @@
 {
+    "daredevil": {
+        "name": "Daredevil",
+        "real_name": "Matt Murdock",
+        "role": "Duelist",
+        "bio": "Lawyer by day and crime-fighting vigiliante by night, Matt Murdock was blinded by a radioactive substance, granting him insanely heightened senses and allowing him to \"see\" better than anyone.",
+        "image": "images/daredevil.webp",
+        "comics": [
+            {
+                "title": "Daredevil: The Man Without Fear",
+                "year": "1993",
+                "description": "The quintessential origin story of Daredevil! Written by Frank Miller, this comic series retells Matt Murdock's early days becoming a vigilante!",
+                "link": "https://www.marvel.com/comics/series/3897/daredevil_the_man_without_fear_1993"
+            },
+            {
+                "title": "Daredevil: Born Again",
+                "year": "1986",
+                "description": "Possibly the most iconic Daredevil comic run of all time, Born Again details Matt Murdock's struggle to live, as the Kingpin (Wilson Fisk) aims to destroy every part of his life after learning his secret identity.",
+                "link": "https://www.marvel.com/comics/guides/1032/daredevil-born-again"
+            }
+        ],
+        "entertainment": [
+            {
+                "title": "Daredevil",
+                "year": "2015-2018",
+                "description": "The pinnacle of Marvel television, the Daredevil TV series is the definitive live action adaptation of Matt Murdock!",
+                "link": "https://www.imdb.com/title/tt3322312/"
+            },
+            {
+                "title": "Daredevil: Born Again",
+                "year": "2025-Present",
+                "description": "Although it has almost nothing to do with the comic run of the same name, Daredevil: Born Again is a great continuation of the original 2015 TV series.",
+                "link": "https://www.imdb.com/title/tt18923754/"
+            }
+        ]
+    },
+
     "punisher": {
         "name": "The Punisher",
         "real_name": "Frank Castle",
