@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="bg-image"></div>
+    <div class="hero-bg"></div>
     
     <?php
         $heroes = json_decode(file_get_contents("heroes.json"), true);
@@ -28,7 +28,7 @@
 
     <section class="hero-banner">
         <div class="hero-banner-image">
-            <img src="<?=$hero['image']?>" alt="<?=$hero['name']?>" width="500px" height="500px">
+            <img src="<?=$hero['image']?>" alt="<?=$hero['name']?>">
         </div>
         
         <div class="hero-banner-info">
@@ -52,8 +52,10 @@
                             <h3 class="comic-title" style="color: <?= $hero['color'] ?>">
                                 <?= $comic['title'] ?> 
                             </h3>
+
                         </a>
-                    
+                        
+                        <h4 class="comic-year"> <?= $comic['year'] ?> </h4>
                         <p class="comic-desc"> <?= $comic['description'] ?></p>
                     </div>
 
@@ -69,6 +71,7 @@
                             </h3>
                         </a>
 
+                        <h4 class="media-year"> <?= $media['year'] ?> </h4>
                         <p class="media-desc"> <?= $media['description'] ?></p>
                     </div>
                     
@@ -77,9 +80,8 @@
         
     </section>
 
-<?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
 </body>
-
 
 </html>
 

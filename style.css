@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.bg-image {
+.bg-image, .hero-bg {
     background-image: url("images/bg.jpeg");
     background-size: cover;
     background-position: center;
@@ -17,6 +17,10 @@
     z-index: -1;
 }
 
+.hero-bg {
+    filter: blur(4px);
+}
+
 .nav-logo {
     font-size: 56px;
     font-family: "Lexend", sans-serif;
@@ -24,6 +28,7 @@
     text-shadow: 6px 4px 2px black;
     -webkit-text-stroke: 6px black;
     paint-order: stroke fill;
+    padding-bottom: 20px;
 }
 
 .nav-bar {
@@ -33,6 +38,7 @@
     padding: 10px 0;
     width: 100%;
     align-self: stretch;
+    text-decoration: 3px underline;
 }
 
 .nav-bar a:link, .nav-bar a:visited {
@@ -87,7 +93,17 @@ body {
 }
 
 .hero-banner-image {
-    margin-top: -25px;
+    margin-top: -50px;
+    object-fit: contain; 
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+.hero-banner-image img {
+    object-fit: contain; 
+    padding-right: 20px;
 }
 .hero-banner, .appearances {
     text-align: center;
@@ -134,8 +150,8 @@ body {
     background-color: #fadb2b;
     max-width: 300px;
     box-shadow: 4px 4px 4px black;
-    
 }
+
 .comic-cover, .media-cover {
     box-shadow: 4px 4px 6px black;
     margin-bottom: 10px;
@@ -146,6 +162,13 @@ body {
     color: white;
     -webkit-text-stroke: 6px black;
     paint-order: stroke fill;
+}
+
+.comic-year, .media-year {
+    padding-top: 5px;
+    font-family: "Odibee Sans", "Lexend";
+    font-size: 20px;
+    font-style: bold;
 }
 
 #bio, .comic-desc, .media-desc {
@@ -179,6 +202,7 @@ body {
     font-weight: bold;
     margin-top: auto;
     margin-bottom: 5px;
+    width: 100%;
     color: white;
     -webkit-text-stroke: 4px black;
     paint-order: stroke fill;
