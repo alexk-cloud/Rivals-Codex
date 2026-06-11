@@ -51,6 +51,7 @@ body {
 .hero-grid, .appears-grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 16px;
     padding: 20px;
 }
@@ -66,7 +67,7 @@ body {
     overflow: hidden;
     color: black;
     font-family: "Lexend", sans-serif;
-    box-shadow: 1px 2px 2px black;
+    box-shadow: 4px 4px 4px black;
 }
 
 .hero-card img {
@@ -117,36 +118,42 @@ body {
     font-style: italic;
     text-decoration: underline;
     color: white;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-bottom: -10px;
     -webkit-text-stroke: 6px black;
     paint-order: stroke fill;
 }
 
-.comic-card {
+.comic-card, .media-card {
     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     border: 2px solid black;
     border-radius: 8px;
     background-color: #fadb2b;
+    max-width: 300px;
+    box-shadow: 4px 4px 4px black;
     
 }
-#comic-cover, #media-cover {
+.comic-cover, .media-cover {
     box-shadow: 4px 4px 6px black;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-#comic-title, #media-title {
+.comic-title, .media-title {
     font-family: "Contrail One", sans-serif;
     color: white;
     -webkit-text-stroke: 6px black;
     paint-order: stroke fill;
 }
 
-#bio, #comic-desc, #media-desc {
+#bio, .comic-desc, .media-desc {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
     -webkit-text-stroke: 4px black;
@@ -168,8 +175,11 @@ body {
 .footer {
     text-align: center;
     text-decoration: underline;
+    font-size: 18px;
     font-weight: bold;
     margin-top: auto;
     margin-bottom: 5px;
     color: white;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
 }

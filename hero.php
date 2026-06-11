@@ -45,19 +45,16 @@
         <h2> Appears in: </h2>
 
         <div class="appears-grid">
-            <div class="comics">
                 <?php foreach($hero['comics'] as $comic): ?>
-
                     <div class="comic-card"> 
-                        <a 
-                            href="<?= $comic['link']?>" target="_blank"> 
-                            <img id="comic-cover" src="<?= $comic['cover'] ?>" alt="" height="300px">
-                            <h3 id="comic-title" style="color: <?= $hero['color'] ?>">
+                        <a href="<?= $comic['link']?>" target="_blank"> 
+                            <img class="comic-cover" src="<?= $comic['cover'] ?>" alt="" height="300px">
+                            <h3 class="comic-title" style="color: <?= $hero['color'] ?>">
                                 <?= $comic['title'] ?> 
                             </h3>
                         </a>
                     
-                        <p id="comic-desc"> <?= $comic['description'] ?></p>
+                        <p class="comic-desc"> <?= $comic['description'] ?></p>
                     </div>
 
                 <?php endforeach; ?>
@@ -66,17 +63,16 @@
                     <div class="media-card">
                         <a
                             href="<?= $media['link']?>" target="_blank">
-                            <img id="media-cover" src="<?= $media['cover'] ?>" alt="" height="300px">
-                            <h3 id="media-title" style="color: <?= $hero['color'] ?>">
+                            <img class="media-cover" src="<?= $media['cover'] ?>" alt="" height="300px">
+                            <h3 class="media-title" style="color: <?= $hero['color'] ?>">
                                 <?= $media['title'] ?> 
                             </h3>
                         </a>
 
-                        <p id="media-desc"> <?= $media['description'] ?></p>
+                        <p class="media-desc"> <?= $media['description'] ?></p>
                     </div>
                     
                 <?php endforeach; ?>
-            </div>
         </div>
         
     </section>
