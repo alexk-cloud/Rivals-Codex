@@ -8,7 +8,7 @@
 
     <body>
         <div class="bg-image"></div>
-        
+
         <?php
             $heroes = json_decode(file_get_contents("heroes.json"), true);
         ?>
@@ -28,7 +28,7 @@
                 <img src="<?=$hero['image'] ?>" alt="<?=$hero['name']?>" width="300px" height="300px">
             </div>
             
-            <p> <?= $hero['name'] ?> </p>
+            <p class="hero-name"> <?= $hero['name'] ?> </p>
             
 
             </a>
