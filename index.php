@@ -15,11 +15,8 @@
 
         <?php
             $heroes = json_decode(file_get_contents("heroes.json"), true);
+            include "includes/header.php";
         ?>
-
-        <div class="top-header"> 
-            <h1> Rivals Codex </h1>
-        </div>
 
         <div class="hero-grid" id="heroGrid">
             <?php foreach($heroes as $id => $hero): ?>

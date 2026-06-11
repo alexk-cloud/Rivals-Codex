@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Odibee+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,14 +28,14 @@
 
     <section class="hero-banner">
         <div class="hero-banner-image">
-            <img src="<?=$hero['image']?>" alt="<?=$hero['name']?>" width="300px" height="300px">
+            <img src="<?=$hero['image']?>" alt="<?=$hero['name']?>" width="500px" height="500px">
         </div>
         
         <div class="hero-banner-info">
-            <h1> <?= $hero['name']?> </h1>
-            <h2> <?= $hero['real_name']?> </h2>
-            <h3> <?= $hero['role']?> </h3>
-            <p> <?= $hero['bio']?> </p>
+            <h1 id="name"> <?= $hero['name']?> </h1>
+            <h2 id="real-name"> <?= $hero['real_name']?> </h2>
+            <h3 id="role"> <?= $hero['role']?> </h3>
+            <p id="bio"> <?= $hero['bio']?> </p>
         </div>
     </section>
 

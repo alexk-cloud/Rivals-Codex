@@ -17,8 +17,7 @@
     z-index: -1;
 }
 
-.top-header h1, .nav-logo {
-    text-align: center;
+.nav-logo {
     font-size: 56px;
     font-family: "Lexend", sans-serif;
     color: white;
@@ -28,7 +27,12 @@
 }
 
 .nav-bar {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    align-self: stretch;
 }
 
 .nav-bar a:link, .nav-bar a:visited {
@@ -41,6 +45,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .hero-grid {
@@ -78,6 +83,13 @@ body {
     font-size: 18px;
     font-weight: bold;
     width: 100%;
+}
+
+.hero-banner-image {
+    margin-top: -25px;
+}
+.hero-banner, .appearances {
+    text-align: center;
 }
 
 .footer {
