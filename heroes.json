@@ -167,6 +167,20 @@
                 "description": "The first solo movie of Tom Holland's Spider-Man. Peter Parker, desperate to prove himself to his mentor Tony Stark, is put to the ultimate test when The Vulture threatens him and his loved ones.",
                 "link": "https://www.imdb.com/title/tt0948470/",
                 "cover": "https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_FMjpg_UX1000_.jpg"
+            },
+            {
+                "title": "Marvel's Spider-Man",
+                "year": "2018",
+                "description": "Nominated for Game of the Year in 2018, the first game in Insomniac Games's Spider-Man series is known as the definitive Spider-Man video game experience.",
+                "link": "https://www.imdb.com/title/tt5807780/",
+                "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg"
+            },
+            {
+                "title": "Spider-Man: Into the Spider-Verse",
+                "year": "2018",
+                "description": "One of, if not, the best Spider-Man movies out there, the first movie in the Spider-Verse series depicts Miles Morales's struggle with becoming Spider-Man, as other Spider-Variants try to mentor him.",
+                "link": "https://www.imdb.com/title/tt4633694/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BNDM0MjkxODUtNjQwYy00Y2I1LWE0YTQtMzM2ZWQxOTAwNTQ2XkEyXkFqcGc@._V1_.jpg"
             }
         ]
     }
