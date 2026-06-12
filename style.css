@@ -87,6 +87,12 @@ body {
     color: black;
     font-family: "Lexend", sans-serif;
     box-shadow: 4px 4px 4px black;
+    transition: transform 0.2s;
+}
+
+.hero-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 10px black;
 }
 
 .hero-card img {
@@ -163,6 +169,12 @@ body {
     background-color: #fadb2b;
     max-width: 300px;
     box-shadow: 4px 4px 4px black;
+    transition: transform 0.2s;
+}
+
+.comic-card:hover, .media-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 10px black;
 }
 
 .comic-cover, .media-cover {
