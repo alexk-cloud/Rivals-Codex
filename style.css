@@ -39,12 +39,21 @@
     width: 100%;
     align-self: stretch;
     text-decoration: 3px underline;
+    transition: transform 0.2s;
+}
+
+.nav-bar:hover {
+    transform: translateY(-5px);
 }
 
 .nav-bar a:link, .nav-bar a:visited {
     text-decoration: none;
     font-weight: bold;
     color: white;
+}
+
+.nav-bar a:hover {
+    color:#fadb2b;
 }
 
 .search {
