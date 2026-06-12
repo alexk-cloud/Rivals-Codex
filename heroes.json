@@ -1,4 +1,45 @@
 {
+    "dr-strange": {
+        "color": "#ff8c21",
+        "name": "Doctor Strange",
+        "real_name": "Dr. Stephen Vincent Strange",
+        "role": "Vanguard",
+        "bio": "Once a renowned neurosurgeon, Dr. Stephen Strange learned to wield ancient magic as the Sorcerer Supreme after seeking the Ancient One due to a severe car accident that permanently severed the nerves in his hands.",
+        "image": "images/dr-strange.webp",
+        "comics": [
+            {
+                "title": "Doctor Strange: The Oath",
+                "year": "2006-2007",
+                "description": "The Sorcerer Supreme is met with multiple devastating conflicts: investigating an attempt on his own life and trying to save his closest friend from a terminal illness!",
+                "link": "https://www.marvel.com/comics/series/1096/doctor_strange_the_oath_2006_2007",
+                "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/00/6467b0a733be1/clean.jpg"
+            }
+        ],
+        "entertainment": [
+            {
+                "title": "Doctor Strange",
+                "year": "2016",
+                "description": "Dr. Strange's origins in the MCU! After experiencing a horrible car accident, Dr. Stephen Strange lost function in his hands and couldn't be healed with Western medicine. This lead him to finding the Ancient One, who taught him mystical arts.",
+                "link": "https://www.imdb.com/title/tt1211837/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg"
+            },
+            {
+                "title": "Spider-Man: No Way Home",
+                "year": "2021",
+                "description": "After Spider-Man's identity is revealed to the world, Peter Parker asks Dr. Strange to cast a spell to help him. Little did they know it would go wrong, and threats from other universes start pouring in.",
+                "link": "https://www.imdb.com/title/tt10872600/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+            },
+            {
+                "title": "Doctor Strange in the Multiverse of Madness",
+                "year": "2022",
+                "description": "Dr. Strange discovers threats that could wipe out millions across the multiverse, including versions of himself from other universes.",
+                "link": "https://www.imdb.com/title/tt1211837/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BZDc0NmU4ZDQtYTg3OS00Mzg3LTkyMjMtNGNjYzA1NjczM2Y4XkEyXkFqcGc@._V1_.jpg"
+            }
+        ]
+    },
+
     "cap": {
         "color": "#2684ff",
         "name": "Captain America",
