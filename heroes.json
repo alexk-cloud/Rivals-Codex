@@ -1,4 +1,53 @@
 {
+    "cap": {
+        "color": "#2684ff",
+        "name": "Captain America",
+        "real_name": "Steven \"Steve\" Rogers",
+        "role": "Vanguard",
+        "bio": "Meant to be a human weapon in World War II, Steve Rogers was enhanced by the Super-Soldier Serum, giving him the strength to lead any army into battle!",
+        "image": "images/cap.webp",
+        "comics": [
+            {
+                "title": "Captain America: Man Out of Time",
+                "year": "2010",
+                "description": "Essentially the \"Year One\" comic series for Captain America, as Steve Rogers awakens in the modern day after being frozen since 1945.",
+                "link": "https://www.marvel.com/comics/series/12288/captain_america_man_out_of_time_2010_2011",
+                "cover": "https://m.media-amazon.com/images/I/71rU1YdcV1L._AC_UF1000,1000_QL80_.jpg"
+            },
+            {
+                "title": "Captain America: The Winter Soldier",
+                "year": "2005-2006",
+                "description": "Believing that his best friend died after falling out of a plane, Steve Rogers soon discovers Bucky Barnes is alive and has been brainwashed into an assassin and spy for HYDRA.",
+                "link": "https://www.marvel.com/comics/guides/998/marvels-captain-america-winter-soldier",
+                "cover": "https://upload.wikimedia.org/wikipedia/en/8/87/CaptainAmericaVol5Iss14.png"
+            }
+        ],
+        "entertainment": [
+            {
+                "title": "Captain America: The First Avenger",
+                "year": "2011",
+                "description": "The origins of Steve Rogers becoming Captain America in the MCU! After being unfit for the Allied Troops in World War II, Steve Rogers took a dose of the Super-Soldier Serum to give them a fighting chance against Red Skull and HYDRA.",
+                "link": "https://www.imdb.com/title/tt0458339/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BNzUyM2YyY2MtNzNlMS00MWU5LTgxNjAtNzZlNmI2NjU2NDZlXkEyXkFqcGc@._V1_.jpg"
+            },
+            {
+                "title": "The Avengers",
+                "year": "2012",
+                "description": "The first Avengers movie, where some of Marvel's most iconic heroes have to learn how to work as a team in order to prevent Loki and his army of aliens from taking over the Earth!",
+                "link": "https://www.imdb.com/title/tt0848228/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_.jpg"
+            },
+            {
+                "title": "Captain America: Civil War",
+                "year": "2016",
+                "description": "After politics are involved with superhero affairs, Captain America and Iron Man take opposing sides in beliefs about government interference.",
+                "link": "https://www.imdb.com/title/tt3498820/",
+                "cover": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_.jpg"
+            }
+            
+        ]
+    },
+
     "daredevil": {
         "color": "#921d43",
         "name": "Daredevil",
