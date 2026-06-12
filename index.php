@@ -20,6 +20,39 @@
         
         <div class="search">
             <input type="text" id="text-search" placeholder="Search for heroes...">
+            <button id="filter">
+                <img src="images/filter.png" alt="Filter heroes">
+            </button>
+
+            <dialog id="popup">
+                <form method="dialog">
+                    <h3> Filter by role: </h3>
+
+                    <div class="role-radio">
+                        <label>
+                            <input type="radio" name="role" value="" checked>
+                            All
+                        </label>
+                        <label>
+                            <input type="radio" name="role" value="Vanguard">
+                            Vanguard
+                        </label>
+                        <label>
+                            <input type="radio" name="role" value="Duelist">
+                            Duelist
+                        </label>
+                        <label>
+                            <input type="radio" name="role" value="Strategist">
+                            Strategist
+                        </label>
+                    </div>
+
+                    <div class="actions">
+                        <button type="button" id="cancelBtn"> Cancel </button>
+                        <button type="submit" id="confirmBtn"> Confirm </button>
+                    </div>
+                </form>
+            </dialog>
         </div>
         
         <div class="hero-grid" id="heroGrid">

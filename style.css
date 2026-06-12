@@ -57,9 +57,13 @@
 }
 
 .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: -10px;
+    gap: 5px;
 }
 
 #text-search {
@@ -67,6 +71,73 @@
     font-size: 22px;
     width: 300px;
     padding-left: 5px;
+}
+
+#filter {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#filter img {
+    height: 28px;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 300px;
+    height: 225px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Lexend", sans-serif;
+    box-shadow: 4px 4px 4px black;
+}
+
+#popup h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: 2px underline black;
+    margin-bottom: 25px;
+}
+
+#popup form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.role-radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.role-radio label, input {
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.actions #cancelBtn, #confirmBtn {
+    font-family: "Contrail One", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    cursor: pointer;
 }
 
 body {
